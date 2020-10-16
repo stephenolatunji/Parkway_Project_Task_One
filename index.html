@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task One</title>
+    <link rel="stylesheet" href="task_one.css">
+    <script type="text/javascript" src="task_one.js"></script>
+</head>
+<body>
+    <div class="whole">
+        <div class="container">
+            <div class="main-block">
+                <h1>Candy Game</h1>
+                <form>
+                  <hr>
+                  <label id="icon" for="name">N</label>
+                  <input type="number" name="val_n" id="val_n" placeholder="Enter value for N" required/>
+                  <label id="icon" for="name">M</label>
+                  <input type="number" name="val_ m" id="val_m" placeholder="Enter value for M" required/>
+                  <label id="icon" for="name">S</label>
+                  <input type="number" name="val_s" id="val_s" placeholder="Enter value for S" required/>
+                  <hr>
+        
+                  <div class="btn-block">           
+                    <button type="button" onclick="warnTheDeveoper(val_n.value, val_m.value, val_s.value)" href="/">Submit</button>
+                  </div>
+                </form>
+        
+            </div>
+        </div>
+        <!-- result table -->
+        <div class="container">
+            <table id="table">
+                <thead>
+                    <tr>
+                        <th>Sample Number</th>
+                        <th>N</th>
+                        <th>M</th>
+                        <th>S</th>
+                        <th>Warn</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
